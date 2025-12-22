@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Roberta | Portfolio</title>
+  <meta name="description" content="Roberta's portfolio website." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="#home">Roberta</a>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        ☰
+      </button>
+
+      <nav class="links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="section hero">
+      <div class="container heroGrid">
+        <div>
+          <p class="kicker">Electrical & Computer Engineering Student</p>
+          <h1 class="title">Hi, I’m <span class="accent">Roberta</span>.</h1>
+          <p class="subtitle">
+            I build projects in circuits, programming, and AI. Here are some of my favorite things I’ve worked on.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn primary" href="#projects">View Projects</a>
+            <a class="btn" href="#contact">Contact Me</a>
+          </div>
+
+          <div class="miniRow">
+            <a class="miniLink" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <span class="dot">•</span>
+            <a class="miniLink" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn</a>
+            <span class="dot">•</span>
+            <a class="miniLink" href="#" target="_blank" rel="noreferrer">Resume</a>
+          </div>
+        </div>
+
+        <div class="card heroCard">
+          <h3>Quick Info</h3>
+          <ul class="bullets">
+            <li>Based in: Chicago area</li>
+            <li>Interests: Circuits, Embedded, AI</li>
+            <li>Currently building: Portfolio + projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="h2">About</h2>
+        <p class="text">
+          I’m an engineering student who enjoys building hands-on projects—from circuit design and simulation
+          to software tools and AI experiments. I like learning by creating, documenting, and improving things.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="row">
+          <h2 class="h2">Projects</h2>
+          <a class="smallLink" href="https://github.com/" target="_blank" rel="noreferrer">See more on GitHub →</a>
+        </div>
+
+        <div class="grid">
+          <article class="card">
+            <h3>DC Power Supply Design</h3>
+            <p class="muted">Designed and simulated a 2.4V DC supply with ripple constraints.</p>
+            <div class="tags">
+              <span class="tag">Circuits</span><span class="tag">MATLAB</span><span class="tag">Analysis</span>
+            </div>
+            <div class="cardLinks">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <span class="dot">•</span>
+              <a href="#" target="_blank" rel="noreferrer">Report</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>AI Image Classification Model</h3>
+            <p class="muted">Trained an image classifier and evaluated performance metrics.</p>
+            <div class="tags">
+              <span class="tag">Python</span><span class="tag">ML</span><span class="tag">Data</span>
+            </div>
+            <div class="cardLinks">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+              <span class="dot">•</span>
+              <a href="#" target="_blank" rel="noreferrer">Demo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <h3>Portfolio Website</h3>
+            <p class="muted">This website! Built with HTML/CSS/JS and hosted on GitHub Pages.</p>
+            <div class="tags">
+              <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            </div>
+            <div class="cardLinks">
+              <a href="#" target="_blank" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="h2">Skills</h2>
+        <div class="tags big">
+          <span class="tag">Python</span>
+          <span class="tag">MATLAB</span>
+          <span class="tag">VHDL</span>
+          <span class="tag">Circuit Analysis</span>
+          <span class="tag">Op-Amps</span>
+          <span class="tag">Data Analysis</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container contactGrid">
+        <div>
+          <h2 class="h2">Contact</h2>
+          <p class="text">
+            Want to collaborate or have questions? Email me or message me on LinkedIn.
+          </p>
+          <div class="contactBox card">
+            <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Your Profile</a></p>
+          </div>
+        </div>
+
+        <form class="card form" onsubmit="return false;">
+          <h3>Quick Message</h3>
+          <label>
+            Name
+            <input type="text" placeholder="Your name" />
+          </label>
+          <label>
+            Message
+            <textarea rows="5" placeholder="Write your message..."></textarea>
+          </label>
+          <button class="btn primary" id="fakeSend">Send</button>
+          <p class="muted tiny" id="formNote">This demo form doesn’t send yet (we can connect it later).</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footerRow">
+      <span>© <span id="year"></span> Roberta</span>
+      <a class="smallLink" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
