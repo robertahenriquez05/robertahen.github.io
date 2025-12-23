@@ -452,6 +452,35 @@ a:hover{ opacity:.9; }
   justify-content:center;
 }
 
+.contactForm{
+  max-width: 520px;
+  margin-top: 20px;
+}
+
+.contactForm label{
+  display:block;
+  margin-top:14px;
+  font-weight:700;
+  color: var(--text);
+}
+
+.contactForm input,
+.contactForm textarea{
+  width:100%;
+  margin-top:6px;
+  padding:12px 14px;
+  border-radius:14px;
+  border:1px solid var(--line);
+  font-family:inherit;
+  font-size:14px;
+}
+
+.contactForm button{
+  margin-top:16px;
+  width:100%;
+}
+
+
 
 
 
