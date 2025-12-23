@@ -294,6 +294,11 @@ a:hover{ opacity:.9; }
   .schoolBox{
     grid-column: 1 / -1;
   }
+  .nav{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:12px;
+  }
   .avatar{ width:110px; height:110px; }
   .heroCards{ grid-template-columns: 1fr; }
   .skillGrid{ grid-template-columns: 1fr; }
