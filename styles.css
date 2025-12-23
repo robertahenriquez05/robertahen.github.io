@@ -63,10 +63,13 @@ a:hover{ opacity:.9; }
 }
 
 .links{
-  display:flex;
-  gap:18px;
-  align-items:center;
+  display:flex !important;
+  position:static;
+  background:none;
+  border:none;
+  box-shadow:none;
 }
+
 
 .links a{
   color:var(--muted);
