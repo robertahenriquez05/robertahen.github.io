@@ -394,3 +394,27 @@ a:hover{ opacity:.9; }
   .contactRow{ grid-template-columns: 1fr; }
 
 }
+
+/* Skill tag hover effect */
+.tag{
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease,
+    background-color 0.2s ease;
+}
+
+.tag:hover{
+  transform: translateY(-4px);
+  box-shadow: 0 8px 18px rgba(244,114,182,0.35);
+  background: rgba(244,114,182,0.18);
+}
+
+.tag i{
+  transition: transform 0.2s ease;
+}
+
+.tag:hover i{
+  transform: scale(1.15);
+}
+
+
