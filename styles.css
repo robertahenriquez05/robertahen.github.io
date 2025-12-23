@@ -17,6 +17,22 @@ section{ scroll-margin-top: 90px; }
   font-weight: 600;
 }
 
+.sectionHeader{
+  background: linear-gradient(
+    180deg,
+    rgba(244,114,182,.18),
+    rgba(244,114,182,.10)
+  );
+  border: 1px solid rgba(244,114,182,.35);
+  border-radius: 18px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.sectionHeader .h2{
+  margin:0;
+}
+
 
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
