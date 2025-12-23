@@ -173,12 +173,6 @@ a:hover{ opacity:.9; }
 
 .heroWrap{ display:flex; flex-direction:column; gap:16px; }
 
-.heroTop{
-  display:grid;
-  grid-template-columns: 140px 1fr 280px;
-  gap:18px;
-  align-items:center;
-}
 
 .avatar{
   width:140px;
@@ -426,6 +420,38 @@ a:hover{ opacity:.9; }
   box-shadow: 0 10px 22px rgba(244,114,182,0.35) !important;
   background: rgba(244,114,182,0.20) !important;
 }
+
+/* Centered hero layout */
+.heroCenter{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align:center;
+  gap:16px;
+}
+
+/* Bigger profile picture */
+.avatar.large{
+  width:180px;
+  height:180px;
+  border-radius:28px;
+}
+
+/* Center subtitle text */
+.subtitle.center{
+  max-width: 70ch;
+}
+
+/* Center button row */
+.badgeRow.center{
+  justify-content:center;
+}
+
+/* Center school box */
+.schoolBox.center{
+  justify-content:center;
+}
+
 
 
 
