@@ -492,8 +492,14 @@ a:hover{ opacity:.9; }
 .contactForm .formRow{
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
+  margin-bottom: 18px;
 }
+
+.contactForm.card{
+  padding: 28px;
+}
+
 
 .contactForm label{
   font-weight: 800;
@@ -532,6 +538,16 @@ a:hover{ opacity:.9; }
 .small{
   font-size: 13px;
 }
+
+/* Add breathing room above contact form */
+#contact .text{
+  margin-top: 12px;
+}
+
+#contact .contactForm{
+  margin-top: 32px;
+}
+
 
 
 
