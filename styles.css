@@ -3,12 +3,18 @@
   --panel: #fff7fb;         /* very light pink */
   --panel2: #fff0f7;        /* slightly stronger */
   --text: #1f2937;          /* slate-ish */
-  --muted: #6b7280;
+  --muted: #4b5563;
   --line: rgba(31,41,55,.12);
   --pink: #f472b6;          /* pink accent */
   --pink2: #fb7185;         /* rosy accent */
   --shadow: 0 10px 30px rgba(31,41,55,.08);
 }
+
+.muted{
+  color: var(--muted);
+  font-weight: 600;
+}
+
 
 *{ box-sizing:border-box; }
 html{ scroll-behavior:smooth; }
