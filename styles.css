@@ -452,88 +452,69 @@ a:hover{ opacity:.9; }
   justify-content:center;
 }
 
-.contactForm{
-  max-width: 520px;
-  margin-top: 20px;
-}
+/* ===== CONTACT FORM – FIXED SPACING ===== */
 
-.contactForm label{
-  display:block;
-  margin-top:14px;
-  font-weight:700;
-  color: var(--text);
-}
-
-.contactForm input,
-.contactForm textarea{
-  width:100%;
-  margin-top:6px;
-  padding:12px 14px;
-  border-radius:14px;
-  border:1px solid var(--line);
-  font-family:inherit;
-  font-size:14px;
-}
-
-.contactForm button{
-  margin-top:16px;
-  width:100%;
-}
-
-/* Clean contact form layout */
 .contactForm{
   max-width: 640px;
-  margin: 20px auto 0;
+  margin: 40px auto 0;
+  padding: 32px;
   display: flex;
   flex-direction: column;
-  gap: 14px;
 }
 
+/* Each field block */
 .contactForm .formRow{
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-bottom: 18px;
+  margin-bottom: 26px; /* THIS is the key spacing */
 }
 
-.contactForm.card{
-  padding: 28px;
-}
-
-
+/* Labels */
 .contactForm label{
   font-weight: 800;
-  color: var(--text);
   font-size: 14px;
+  margin-bottom: 10px; /* space between label and input */
+  color: var(--text);
 }
 
+/* Inputs & textarea */
 .contactForm input,
 .contactForm textarea{
   width: 100%;
-  padding: 12px 14px;
+  padding: 14px 16px;
   border-radius: 14px;
   border: 1px solid var(--line);
-  background: rgba(255,255,255,.9);
-  font-family: inherit;
   font-size: 14px;
-  outline: none;
+  font-family: inherit;
 }
 
+/* Textarea height */
 .contactForm textarea{
+  min-height: 140px;
   resize: vertical;
 }
 
+/* Focus state */
 .contactForm input:focus,
 .contactForm textarea:focus{
-  border-color: rgba(244,114,182,.6);
-  box-shadow: 0 0 0 4px rgba(244,114,182,.15);
+  outline: none;
+  border-color: rgba(244,114,182,.7);
+  box-shadow: 0 0 0 4px rgba(244,114,182,.18);
 }
 
+/* Button spacing */
 .contactForm button{
-  width: 100%;
-  padding: 12px 14px;
+  margin-top: 12px;
+  padding: 14px;
   border-radius: 16px;
+  width: 100%;
 }
+
+/* Small text spacing */
+.contactForm .small{
+  margin-top: 16px;
+}
+
 
 .small{
   font-size: 13px;
