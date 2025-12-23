@@ -295,14 +295,21 @@ a:hover{ opacity:.9; }
 
 .tag{
   display:inline-flex;
-  border: 1px solid rgba(244,114,182,.25);
+  align-items:center;
+  gap:8px;
+  padding:7px 12px;
+  border-radius:999px;
+  border:1px solid rgba(244,114,182,.25);
   background: rgba(244,114,182,.08);
-  color: var(--text);
-  border-radius: 999px;
-  padding: 7px 10px;
-  font-size: 12px;
+  font-size:12px;
   font-weight:800;
 }
+
+.tag i{
+  font-size:16px;
+  line-height:1;
+}
+
 
 .tagGrid{
   display:flex;
