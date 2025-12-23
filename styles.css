@@ -67,6 +67,20 @@ a:hover{ opacity:.9; }
   justify-content:flex-end;
 }
 
+.links a{
+  font-weight:800;
+}
+
+.links a:hover{
+  background: rgba(244,114,182,.18);
+}
+
+.links a{
+  transition: background .2s ease, color .2s ease;
+}
+
+
+
 @media (max-width: 980px){
   .nav{
     flex-wrap:wrap;
