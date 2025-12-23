@@ -529,6 +529,53 @@ a:hover{ opacity:.9; }
   margin-top: 32px;
 }
 
+/* ===== CONTACT FORM SPACING FIX (FORCE) ===== */
+#contact .contactForm{
+  max-width: 640px !important;
+  margin: 32px auto 0 !important;
+  padding: 30px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0 !important; /* we will control spacing with margins */
+}
+
+#contact .contactForm .formRow{
+  display: flex !important;
+  flex-direction: column !important;
+  margin-bottom: 22px !important;
+}
+
+#contact .contactForm label{
+  display: block !important;
+  margin: 0 0 10px 0 !important;
+  font-weight: 800 !important;
+  font-size: 14px !important;
+}
+
+#contact .contactForm input,
+#contact .contactForm textarea{
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 14px 16px !important;
+  border-radius: 14px !important;
+  border: 1px solid var(--line) !important;
+  background: rgba(255,255,255,.95) !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+}
+
+#contact .contactForm textarea{
+  min-height: 160px !important;
+}
+
+#contact .contactForm button{
+  width: 100% !important;
+  margin-top: 8px !important;
+  padding: 14px 16px !important;
+  border-radius: 16px !important;
+}
+
 
 
 
