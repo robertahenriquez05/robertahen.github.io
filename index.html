@@ -263,26 +263,39 @@
 
     <!-- CONTACT -->
     <section id="contact" class="section alt">
-      <div class="container">
-        <h2 class="h2">Contact</h2>
-        <p class="text">If you want to connect, reach out by email or LinkedIn.</p>
+  <div class="container">
+    <div class="sectionHeader">
+      <h2 class="h2">Contact</h2>
+    </div>
 
-        <div class="contactRow">
-          <div class="card">
-            <p><strong>Email:</strong> <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">Your Profile</a></p>
-          </div>
+    <p class="text">
+      Want to get in touch? Send me a message and I’ll get back to you as soon as I can.
+    </p>
 
-          <div class="card">
-            <h3 class="cardTitle">Quick note</h3>
-            <p class="muted">
-              Want a real contact form that sends messages to your email? We can connect this site to
-              Formspree or Netlify Forms (no backend needed).
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
+    <form
+      class="card contactForm"
+      action="https://formspree.io/f/mlgraelj"
+      method="POST"
+    >
+      <label>
+        Your Email
+        <input type="email" name="email" placeholder="you@example.com" required>
+      </label>
+
+      <label>
+        Message
+        <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
+      </label>
+
+      <button class="btn primary" type="submit">Send Message</button>
+
+      <p class="muted small">
+        This form sends directly to my email.
+      </p>
+    </form>
+  </div>
+</section>
+
   </main>
 
   <footer class="footer">
