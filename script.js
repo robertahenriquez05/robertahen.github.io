@@ -1,12 +1,3 @@
-// Photo / thermal comparison slider
-document.querySelectorAll(".compare").forEach((compare) => {
-  const range = compare.querySelector(".compare-range");
-  if (!range) return;
-  const update = () => compare.style.setProperty("--pos", range.value + "%");
-  range.addEventListener("input", update);
-  update();
-});
-
 // Footer year
 const yearEl = document.getElementById("year");
 if (yearEl) yearEl.textContent = new Date().getFullYear();
