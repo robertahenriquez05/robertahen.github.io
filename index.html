@@ -3,313 +3,258 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Roberta | Portfolio</title>
-  <meta name="description" content="Roberta's portfolio website." />
+  <title>Roberta Henriquez</title>
+  <meta name="description" content="Roberta Henriquez is an electrical and computer engineer and the founder of ThermalSense, an AI thermal imaging tool for early breast cancer screening." />
+  <meta property="og:title" content="Roberta Henriquez" />
+  <meta property="og:description" content="Electrical and computer engineer. Founder of ThermalSense. Machine learning, computer vision and embedded systems." />
+  <meta property="og:image" content="https://robertahenriquez05.github.io/robertahen.github.io/assets/roberta-portrait.jpg" />
+  <meta name="theme-color" content="#ECEAF2" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#141228" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='1' x2='0' y2='0'%3E%3Cstop offset='0' stop-color='%23460C78'/%3E%3Cstop offset='.5' stop-color='%23B92070'/%3E%3Cstop offset='.8' stop-color='%23EE6822'/%3E%3Cstop offset='1' stop-color='%23FDC848'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='7' fill='url(%23g)'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='700' font-size='15' text-anchor='middle' fill='white'%3ERH%3C/text%3E%3C/svg%3E" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400;0,500;0,600;1,400&family=Unbounded:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 </head>
-
 <body>
-  <header class="header">
-    <div class="container nav">
-      <a class="brand" href="#home">Roberta Henriquez</a>
+  <a class="skip" href="#main">Skip to content</a>
 
-<nav class="links" id="navLinks">
-  <a href="#about">About</a>
-  <a href="#skills">Skills & Technologies</a>
-  <a href="#projects">Projects</a>
-  <a href="#contact">Contact</a>
-</nav>
-
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top">Roberta Henriquez</a>
+      <nav aria-label="Main">
+        <ul class="nav">
+          <li><a href="#thermalsense">ThermalSense</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
-  <main>
-    <!-- HERO / INTRO -->
-    <section id="home" class="section hero">
-      <div class="container heroWrap">
-        <div class="heroCenter">
-  <h1 class="title">Roberta Henriquez</h1>
+  <main id="main">
+    <section class="hero wrap" id="top">
+      <div class="hero-text">
+        <h1>Roberta Henriquez</h1>
+        <p class="hero-lede">Electrical and computer engineer. I build AI that has to work outside the notebook, starting with breast cancer screening for rural communities.</p>
+        <p class="hero-status">Graduating from the University of Memphis in May 2027. Open to machine learning, computer vision and software roles, remote or in Nashville, Boston, New York or Houston.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="mailto:roberta.henriquez04@gmail.com">Email me</a>
+          <a class="btn" href="assets/Roberta_Henriquez_Resume_2025.pdf" target="_blank" rel="noopener">View resume</a>
+        </div>
+        <ul class="hero-links">
+          <li><a href="https://www.linkedin.com/in/roberta-henriquez-223056255" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/robertahenriquez05" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
 
-  <img class="avatar large" src="assets/RobertaH- Headshot.jpeg" alt="Roberta headshot" />
-
-  <p class="subtitle center">
-    Electrical & Computer Engineering Student | AI, Machine Learning & Software Development | Building Data-Driven Projects
-  </p>
-
-  <div class="badgeRow center">
-    <a class="chip" href="https://github.com/robertahenriquez05" target="_blank" rel="noreferrer">GitHub</a>
-    <a class="chip" href="https://www.linkedin.com/in/roberta-henriquez-223056255" target="_blank" rel="noreferrer">LinkedIn</a>
-    <a class="chip" href="assets/Roberta_Henriquez_Resume_2025.pdf" target="_blank" rel="noreferrer">Resume</a>
-  </div>
-
-  <div class="schoolBox center">
-    <img class="schoolLogo" src="assets/uofm.png" alt="University of Memphis logo" />
-    <div>
-      <p class="schoolName">University of Memphis</p>
-      <p class="schoolMeta">B.S. Electrical & Computer Engineering</p>
-    </div>
-  </div>
-</div>
-
-
-        <div class="heroCards">
-          <div class="card">
-            <h3 class="cardTitle">What drives me</h3>
-           <ul class="bullets">
-            <li>Turning operational complexity into models that predict, optimize, and prevent failure.</li>
-            <li>Building ML pipelines end-to-end; raw data in, production-ready insight out.</li>
-            <li>Applying deep learning and predictive modeling to real financial and engineering problems.</li>
-            <li>Bridging hardware and software, from embedded systems to intelligent applications.</li>
-            <li>Solving problems at scale, where a 1% accuracy gain means millions in real-world impact.</li>
-           </ul>
-
+      <figure class="portrait">
+        <div class="compare" style="--pos: 50%">
+          <img class="compare-photo" src="assets/roberta-portrait.jpg" width="960" height="1200" alt="Portrait of Roberta Henriquez" />
+          <img class="compare-thermal" src="assets/roberta-thermal.jpg" width="960" height="1200" alt="" aria-hidden="true" />
+          <div class="compare-line" aria-hidden="true"><span class="compare-knob"></span></div>
+          <input class="compare-range" type="range" min="0" max="100" value="50" aria-label="Slide between photo and thermal view" />
+          <div class="scale" aria-hidden="true">
+            <span>warm</span>
+            <i></i>
+            <span>cool</span>
           </div>
+        </div>
+        <figcaption>Drag to compare. The thermal side is a filter made for this page, not a real thermal image.</figcaption>
+      </figure>
+    </section>
 
-          <div class="card">
-            <h3 class="cardTitle">Currently Sharpening</h3>
-            <div class="tagGrid">
-              <span class="tag">Python</span>
-              <span class="tag">Machine Learning</span>
-              <span class="tag">TensorFlow</span>
-              <span class="tag">Web Dev</span>
-              <span class="tag">Predicitve Analytics Data</span>
-              <span class="tag">Git/GitHub</span>
+    <section class="feature" id="thermalsense" aria-labelledby="ts-title">
+      <div class="wrap feature-grid">
+        <div class="feature-head">
+          <h2 id="ts-title">ThermalSense</h2>
+          <p class="feature-role">Founder and lead engineer</p>
+        </div>
+        <div class="feature-body">
+          <p class="lead">I founded ThermalSense to bring a quick, radiation-free breast screening to places where the nearest mammography center is a long drive away.</p>
+
+          <h3>How it works</h3>
+          <ol class="steps">
+            <li>
+              <strong>Capture</strong>
+              <p>A pharmacist or community health worker takes a thermal image with a handheld FLIR camera.</p>
+            </li>
+            <li>
+              <strong>Analyze</strong>
+              <p>A deep learning model running on the device looks for abnormal heat patterns. Images stay encrypted on the device.</p>
+            </li>
+            <li>
+              <strong>Refer</strong>
+              <p>Anyone flagged is sent for mammography. The tool helps decide who should go first; it doesn't replace imaging.</p>
+            </li>
+          </ol>
+
+          <h3>Where it stands</h3>
+          <dl class="facts">
+            <div>
+              <dt>Model</dt>
+              <dd>ResNet50 fine-tuned on the DMR-IR breast thermography dataset: about 87% validation accuracy and an AUC of about 0.92, converted to TensorFlow Lite for on-device use.</dd>
             </div>
+            <div>
+              <dt>Regulatory path</dt>
+              <dd>FDA Class II through 510(k), with a Software as a Medical Device layer.</dd>
+            </div>
+            <div>
+              <dt>Next milestone</dt>
+              <dd>IRB-approved clinical data collection with hospital partners.</dd>
+            </div>
+            <div>
+              <dt>Pitched at</dt>
+              <dd>The DEBUT Challenge and the AWS AI Pitch Competition in Memphis, 2026.</dd>
+            </div>
+          </dl>
+          <p class="feature-cta">Working in medical imaging, women's health or rural health? <a href="#contact">I'd like to hear from you.</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap section" id="work" aria-labelledby="work-title">
+      <h2 id="work-title">Selected work</h2>
+      <p class="section-intro">Software, hardware and machine learning projects from class, client work and my own time.</p>
+
+      <ul class="projects">
+        <li class="project">
+          <div class="project-meta">
+            <p>2026</p>
+            <p>Team lead, 4 people</p>
           </div>
+          <div class="project-main">
+            <h3>Service status and incident platform</h3>
+            <p>A status-page and incident-management system like the ones AWS and Slack run. It checks the health of each service on a schedule, moves incidents from investigating to resolved, alerts subscribers by email and webhook, and publishes a public status page. I built the AI incident summaries: the model drafts each update and a person approves it before it goes out.</p>
+            <p class="tags">Python, LLM integration, REST APIs, state machines</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>2026</p>
+            <p>Client project</p>
+          </div>
+          <div class="project-main">
+            <h3>Workforce placement portal</h3>
+            <p>A full-stack web app for a staffing firm that places engineers with U.S. manufacturers. Separate portals for admins, employers and candidates; admin-only accounts with one-time passwords; resume uploads; visa and document tracking; and a billing dashboard with monthly recurring revenue by client.</p>
+            <p class="tags">Next.js, Node, SQLite, Vercel</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>2026</p>
+            <p>Solo</p>
+          </div>
+          <div class="project-main">
+            <h3>Venture CRM</h3>
+            <p>A lightweight CRM for founders to track contacts, deal stage and follow-ups. Built for my Software Engineering course and designed to become the tool I use for ThermalSense investor and partner relationships.</p>
+            <p class="tags">Python, Django, SQL</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>2026 to 2027</p>
+            <p>Team lead, 5 people</p>
+          </div>
+          <div class="project-main">
+            <h3>Assistive navigation system</h3>
+            <p>My senior design project with team Novatech: a navigation aid for people with visual impairments that pairs a sensor-equipped cane with an AI camera headset that describes obstacles and surroundings through audio. Research this fall, build in the spring.</p>
+            <p class="tags">Computer vision, embedded systems, sensors, audio feedback</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>Junior design</p>
+          </div>
+          <div class="project-main">
+            <h3>Good posture reminder</h3>
+            <p>A wearable that notices slouching and nudges you with a gentle vibration. It reads orientation from an IMU and uses calibrated thresholds to tell a real posture change from normal movement.</p>
+            <p class="tags">ESP32, BNO055 IMU, C++, haptics</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>Bloomberg Lab</p>
+          </div>
+          <div class="project-main">
+            <h3>S&amp;P 500 trend forecasting</h3>
+            <p>Forecasting S&amp;P 500 trends with market, cash-flow and macroeconomic data from Bloomberg terminals. A full pipeline from extraction and cleaning through feature engineering, training and backtesting, comparing linear regression with an LSTM on MSE and R².</p>
+            <p class="tags">Python, Pandas, TensorFlow, LSTM, time series</p>
+          </div>
+        </li>
+
+        <li class="project">
+          <div class="project-meta">
+            <p>Solo</p>
+          </div>
+          <div class="project-main">
+            <h3>CNN image classifier</h3>
+            <p>A convolutional network built from scratch that reaches over 90% accuracy, with normalization, data augmentation and train, validation and test splits, plus loss-curve tracking to catch overfitting early.</p>
+            <p class="tags">TensorFlow, Keras, NumPy, Matplotlib</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section class="wrap section" id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm finishing a double degree in Electrical Engineering and Computer Engineering at the University of Memphis. The combination is the point: I can follow a problem from the analog front end and the firmware up to the model and the web app someone actually uses.</p>
+          <p>Outside class I run ThermalSense, build websites for Memphis small businesses, and co-founded Omnia Trading, a consumer products company that sells on Amazon. Starting things has taught me to talk to customers early, do the math before spending money, and finish what I start.</p>
+          <p>I speak English, Spanish and Italian, and I read French.</p>
+        </div>
+
+        <div class="about-side">
+          <h3>Experience</h3>
+          <ul class="timeline">
+            <li><span><strong>Founder</strong>, ThermalSense</span> <span class="when">Now</span></li>
+            <li><span><strong>Web developer</strong>, freelance</span> <span class="when">Now</span></li>
+            <li><span><strong>Co-founder</strong>, Omnia Trading LLC</span> <span class="when">Since 2026</span></li>
+            <li><span><strong>Document and quality control intern</strong>, Eurotranciatura USA</span> <span class="when">2021</span></li>
+          </ul>
+
+          <h3>Skills</h3>
+          <dl class="skills">
+            <div><dt>Machine learning</dt><dd>TensorFlow, Keras, TensorFlow Lite, scikit-learn, XGBoost, CNNs, transfer learning, time series</dd></div>
+            <div><dt>Software</dt><dd>Python, Java, JavaScript, C, C++, SQL, R, Django, Next.js, Git, Linux</dd></div>
+            <div><dt>Hardware</dt><dd>MATLAB, Simulink, VHDL, ESP32, sensors and IMUs, circuit design, control systems, signal processing</dd></div>
+          </dl>
         </div>
       </div>
     </section>
 
-    <!-- ABOUT -->
-    <section id="about" class="section">
-      <div class="container">
-       <div class="sectionHeader">
-        <h2 class="h2">About</h2>
+    <section class="wrap section contact" id="contact" aria-labelledby="contact-title">
+      <div class="contact-intro">
+        <h2 id="contact-title">Contact</h2>
+        <p>Hiring, building something in health tech, or just want to talk shop? Send a message and I'll get back to you.</p>
+        <p><a href="mailto:roberta.henriquez04@gmail.com">roberta.henriquez04@gmail.com</a></p>
       </div>
 
-        <p class="text">
-  Hi! I’m Roberta Henriquez - I build systems that make data useful; not just readable, but actionable.
-  <br><br>
-  I'm an Electrical and Computer Engineering student specializing in AI and machine learning, and I'm drawn
-  to organizations where predictive intelligence drives real operational outcomes. Optimizing routing.
-  Anticipating demand. Catching failures before they cascade. That intersection of data science and large-scale logistics is exactly 
-  where I want to work — and where I believe my skills create immediate value.
-  <br><br>
-  My project work reflects that focus: forecasting S&P 500 trends using Bloomberg financial data, detecting thermal anomalies in electrical 
-  infrastructure before failures occur, and building predictive analytics dashboards that turn raw signals into decisions. Every project starts 
-  with the same question: What does this data tell us, and what should we do about it?
-  <br><br>
-  My ECE background gives me an edge that others don't have. I understand not just the model, but the system it lives inside, which means I optimize 
-  for performance under real-world constraints, not just benchmark accuracy.
-  <br><br>
-  I'm actively seeking Data Science and ML Engineer roles where the work moves the needle at scale. 
-  Let's build something that learns
-</p>
-
-      </div>
+      <form class="contact-form" action="https://formspree.io/f/mlgraelj" method="POST">
+        <input type="hidden" name="_subject" value="New message from your portfolio" />
+        <label for="name">Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button class="btn btn-primary" type="submit">Send message</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
     </section>
-
-    <!-- SKILLS -->
-    <!-- SKILLS -->
-<section id="skills" class="section alt">
-  <div class="container">
-    <div class="sectionHeader">
-      <h2 class="h2">Skills & Technologies</h2>
-    </div>
-
-    <p class="text">
-     Tools and technologies I've built real projects with, and am continuing to deepen.
-    </p>
-
-    <div class="skillGrid">
-      <article class="card">
-        <h3 class="cardTitle">Programming Languages</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-python-plain"></i>Python</span>
-          <span class="tag"><i class="devicon-java-plain"></i>Java</span>
-          <span class="tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
-          <span class="tag"><i class="devicon-c-plain"></i>C</span>
-          <span class="tag"><i class="devicon-cplusplus-plain"></i>C++</span>
-          <span class="tag"><i class="devicon-r-plain"></i>R</span>
-          <span class="tag">MATLAB</span>
-          <span class="tag">VHDL</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">Web Development</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-html5-plain"></i>HTML</span>
-          <span class="tag"><i class="devicon-css3-plain"></i>CSS</span>
-          <span class="tag"><i class="devicon-javascript-plain"></i>JavaScript</span>
-          <span class="tag"><i class="devicon-github-original"></i>GitHub Pages</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">Cloud Platforms</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-amazonwebservices-plain-wordmark"></i>AWS</span>
-          <span class="tag"><i class="devicon-googlecloud-plain"></i>Google Cloud</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">DevOps & Tooling</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-git-plain"></i>Git</span>
-          <span class="tag"><i class="devicon-github-original"></i>GitHub</span>
-          <span class="tag"><i class="devicon-vscode-plain"></i>VS Code</span>
-          <span class="tag"><i class="devicon-linux-plain"></i>Linux (Basics)</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">AI / Machine Learning</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-python-plain"></i>Python</span>
-          <span class="tag">NumPy</span>
-          <span class="tag">Pandas</span>
-          <span class="tag">scikit-learn</span>
-          <span class="tag"><i class="devicon-tensorflow-original"></i>TensorFlow</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">Databases</h3>
-        <div class="tags">
-          <span class="tag"><i class="devicon-mysql-plain"></i>SQL</span>
-          <span class="tag">SQLite</span>
-          <span class="tag">Firebase</span>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-    <!-- PROJECTS -->
-<!-- PROJECTS -->
-<section id="projects" class="section">
-  <div class="container">
-    <div class="row">
-      <h2 class="h2">Projects</h2>
-    </div>
-
-    <div class="projectGrid">
-      <article class="card">
-        <h3 class="cardTitle">1) Thermal Imaging Anomaly Detection - In Progress</h3>
-        <p class="muted">
-         A medical computer vision system that analyzes thermographic images to detect early signs of breast cancer,
-         using abnormal heat patterns in tissue as non-invasive diagnostic indicators.
-        </p>
-        <ul class="bullets">
-          <li><strong></strong> Processes raw thermal breast images through a preprocessing pipeline to normalize and isolate regions of interest</li>
-          <li><strong></strong> Applies ML-driven classification to distinguish abnormal temperature distributions associated with malignancy</li>
-          <li><strong></strong> Focused on sensitivity and early detection — catching signals that might be missed in routine screening</li>
-          <li><strong></strong> Built to explore thermography as an accessible, radiation-free complement to traditional imaging methods</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">Pyhton</span>
-          <span class="tag">Web App</span>
-          <span class="tag">AI/ML</span>
-          <span class="tag">TensorFLow</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">2) S&P 500 Prediction — In Progress</h3>
-        <p class="muted">
-         A school-sponsored predictive analytics project using real Bloomberg terminal data to forecast S&P 500 price trends,
-         applying the same modeling rigor used in production financial systems.
-        </p>
-        <ul class="bullets">
-          <li><strong></strong> Works with live market, cash-flow, and macroeconomic datasets sourced directly from Bloomberg Lab</li>
-          <li><strong></strong> Pipeline covers data extraction, cleaning, feature engineering, model training, and backtesting</li>
-          <li><strong></strong> Benchmarks multiple approaches (Linear Regression, LSTM) and evaluates with MSE and R²</li>
-          <li><strong></strong> Emphasis on interpretability — results that can be explained, not just optimized</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Time-Series Forecasting</span>
-          <span class="tag">LSTM</span>
-          <span class="tag">Pandas</span>
-        </div>
-      </article>
-
-      <article class="card">
-        <h3 class="cardTitle">3) S&P 500 Prediction Project (Bloomberg Lab) — In Progress</h3>
-        <p class="muted">
-         A neural network image classifier built to master the full ML workflow,
-         from the raw dataset to an evaluated, documented model. Fundamentals-first, production-minded.
-        </p>
-        <ul class="bullets">
-          <li><strong></strong> Designed and trained a CNN architecture from scratch using TensorFlow/Keras</li>
-          <li><strong></strong> Built a full data preprocessing pipeline: normalization, augmentation, and train/val/test splits</li>
-          <li><strong></strong> Tracked accuracy and loss curves across epochs to diagnose overfitting and guide tuning</li>
-          <li><strong></strong> Outputs a confusion matrix and sample predictions for clear, visual result communication</li>
-        </ul>
-        <div class="tags">
-          <span class="tag">Python</span>
-          <span class="tag">Neural Networks</span>
-          <span class="tag">ML</span>
-          <span class="tag">Scikit-learn</span>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
-
-
-
-
-
-    <!-- CONTACT -->
-    <section id="contact" class="section alt">
-  <div class="container">
-    <div class="sectionHeader">
-      <h2 class="h2">Contact</h2>
-    </div>
-
-    <p class="text">
-      Want to get in touch? Send me a message, and I’ll get back to you as soon as I can.
-    </p>
-
-   <form
-  class="card contactForm"
-  action="https://formspree.io/f/mlgraelj"
-  method="POST">
-     
-  <div class="formRow">
-    <label for="name">Name</label>
-    <input id="name" name="name" type="text" placeholder="Your name" required />
-  </div>
-
-  <div class="formRow">
-    <label for="email">Your Email</label>
-    <input id="email" name="email" type="email" placeholder="you@example.com" required />
-  </div>
-
-  <div class="formRow">
-    <label for="message">Message</label>
-    <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
-  </div>
-
-  <button class="btn primary" type="submit">Send Message</button>
-
-  <p class="muted small">This form sends directly to my email.</p>
-</form>
-
-  </div>
-</section>
-
   </main>
 
-  <footer class="footer">
-    <div class="container footerRow">
-      <span>© <span id="year"></span> Roberta</span>
-      <a class="smallLink" href="#home">Back to top ↑</a>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>&copy; <span id="year">2026</span> Roberta Henriquez</p>
+      <a href="#top">Back to top</a>
     </div>
   </footer>
 
